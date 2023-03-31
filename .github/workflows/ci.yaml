@@ -38,7 +38,7 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: peterclayder/cidd-demo-java:latest
+          image: peterclayder/cidd-demo-java
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
